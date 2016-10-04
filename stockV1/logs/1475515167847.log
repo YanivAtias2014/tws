@@ -1,0 +1,135 @@
+[2016-10-03 20:19:27.895] [INFO] stocks - Got an order id :124
+[2016-10-03 20:19:27.900] [INFO] stocks - Got an order id :124
+[2016-10-03 20:19:34.226] [INFO] stocks - Got price!  place :1, price :78.25
+[2016-10-03 20:19:34.227] [INFO] stocks - Reached first point of ema 1
+[2016-10-03 20:19:34.227] [INFO] stocks - Got an ema1: 78.25
+[2016-10-03 20:19:36.980] [INFO] stocks - Got price!  place :2, price :78.28
+[2016-10-03 20:19:36.980] [INFO] stocks - Got an ema1: 78.28
+[2016-10-03 20:19:39.896] [INFO] stocks - Got price!  place :3, price :78.36
+[2016-10-03 20:19:39.896] [INFO] stocks - Got an ema1: 78.36
+[2016-10-03 20:19:44.046] [INFO] stocks - Got price!  place :4, price :78.42
+[2016-10-03 20:19:44.047] [INFO] stocks - Got an ema1: 78.42
+[2016-10-03 20:19:44.047] [INFO] stocks - Reached first point of ema 4
+[2016-10-03 20:19:44.047] [INFO] stocks - Got an ema4: 78.3275
+[2016-10-03 20:19:50.754] [INFO] stocks - Got price!  place :5, price :78.41
+[2016-10-03 20:19:50.755] [INFO] stocks - Got an ema1: 78.41
+[2016-10-03 20:19:50.755] [INFO] stocks - Got an ema4: 78.3605
+[2016-10-03 20:19:50.755] [INFO] stocks - 1 is the higher ema
+[2016-10-03 20:19:52.005] [INFO] stocks - Got price!  place :6, price :78.41
+[2016-10-03 20:19:52.005] [INFO] stocks - Got an ema1: 78.41
+[2016-10-03 20:19:52.006] [INFO] stocks - Got an ema4: 78.3803
+[2016-10-03 20:19:52.006] [INFO] stocks - 1 is the higher ema
+[2016-10-03 20:19:56.307] [INFO] stocks - Got price!  place :7, price :78.4
+[2016-10-03 20:19:56.307] [INFO] stocks - Got an ema1: 78.4
+[2016-10-03 20:19:56.307] [INFO] stocks - Got an ema4: 78.38818
+[2016-10-03 20:19:56.308] [INFO] stocks - 1 is the higher ema
+[2016-10-03 20:20:03.312] [INFO] stocks - Got price!  place :8, price :78.41
+[2016-10-03 20:20:03.312] [INFO] stocks - Got an ema1: 78.41
+[2016-10-03 20:20:03.312] [INFO] stocks - Got an ema4: 78.396908
+[2016-10-03 20:20:03.313] [INFO] stocks - 1 is the higher ema
+[2016-10-03 20:20:04.313] [INFO] stocks - Got price!  place :9, price :78.4
+[2016-10-03 20:20:04.313] [INFO] stocks - Got an ema1: 78.4
+[2016-10-03 20:20:04.313] [INFO] stocks - Got an ema4: 78.3981448
+[2016-10-03 20:20:04.314] [INFO] stocks - 1 is the higher ema
+[2016-10-03 20:20:08.202] [INFO] stocks - Got price!  place :10, price :78.45
+[2016-10-03 20:20:08.203] [INFO] stocks - Got an ema1: 78.45
+[2016-10-03 20:20:08.203] [INFO] stocks - Got an ema4: 78.41888688
+[2016-10-03 20:20:08.203] [INFO] stocks - 1 is the higher ema
+[2016-10-03 20:20:18.304] [INFO] stocks - Got price!  place :11, price :78.39
+[2016-10-03 20:20:18.304] [INFO] stocks - Got an ema1: 78.39
+[2016-10-03 20:20:18.305] [INFO] stocks - Got an ema4: 78.40733212800001
+[2016-10-03 20:20:18.305] [INFO] stocks - 4 is the higher ema
+[2016-10-03 20:20:21.337] [INFO] stocks - Got price!  place :12, price :78.39
+[2016-10-03 20:20:21.338] [INFO] stocks - Got an ema1: 78.39
+[2016-10-03 20:20:21.338] [INFO] stocks - Got an ema4: 78.4003992768
+[2016-10-03 20:20:21.338] [INFO] stocks - 4 is the higher ema
+[2016-10-03 20:20:24.934] [INFO] stocks - Got price!  place :13, price :78.4
+[2016-10-03 20:20:24.934] [INFO] stocks - Got an ema1: 78.4
+[2016-10-03 20:20:24.934] [INFO] stocks - Got an ema4: 78.40023956608
+[2016-10-03 20:20:24.934] [INFO] stocks - 4 is the higher ema
+[2016-10-03 20:20:28.034] [INFO] stocks - Got price!  place :14, price :78.46
+[2016-10-03 20:20:28.034] [INFO] stocks - Got an ema1: 78.46
+[2016-10-03 20:20:28.034] [INFO] stocks - Got an ema4: 78.424143739648
+[2016-10-03 20:20:28.034] [INFO] stocks - 1 is the higher ema
+[2016-10-03 20:20:28.034] [INFO] stocks - EMAS HAVE SWITCHED, WE SHOULD BUY NOW!!
+[2016-10-03 20:20:28.035] [INFO] stocks - Placing a buy order
+[2016-10-03 20:20:28.035] [INFO] stocks - We should buy :254 stocks.
+[2016-10-03 20:20:28.436] [INFO] stocks - We bought at and average price of :78.5
+[2016-10-03 20:20:28.436] [INFO] stocks - min_profit_from_deal: -100
+[2016-10-03 20:20:28.437] [INFO] stocks - stop_loss_price: 78.11
+[2016-10-03 20:20:28.439] [INFO] stocks -  :78.5
+[2016-10-03 20:20:29.139] [INFO] stocks - StopLoss accured - this never happend
+[2016-10-03 20:20:32.010] [INFO] stocks - Got price!  place :15, price :78.57
+[2016-10-03 20:20:32.010] [INFO] stocks - Got an ema1: 78.57
+[2016-10-03 20:20:32.010] [INFO] stocks - Got an ema4: 78.4824862437888
+[2016-10-03 20:20:32.011] [INFO] stocks - 1 is the higher ema
+[2016-10-03 20:20:32.011] [INFO] stocks - Highest profit point is : 17.779999999998267
+[2016-10-03 20:20:32.012] [INFO] stocks - min_profit_from_deal: -100
+[2016-10-03 20:20:32.012] [INFO] stocks - stop_loss_price: 78.11
+[2016-10-03 20:20:32.012] [INFO] stocks - Canceling order :125
+[2016-10-03 20:20:32.530] [INFO] stocks - StopLoss accured - this never happend
+[2016-10-03 20:20:37.619] [INFO] stocks - Got price!  place :16, price :78.51
+[2016-10-03 20:20:37.619] [INFO] stocks - Got an ema1: 78.51
+[2016-10-03 20:20:37.619] [INFO] stocks - Got an ema4: 78.49349174627328
+[2016-10-03 20:20:37.619] [INFO] stocks - 1 is the higher ema
+[2016-10-03 20:20:37.620] [INFO] stocks - Highest profit point is : 17.779999999998267
+[2016-10-03 20:20:37.620] [INFO] stocks - min_profit_from_deal: -100
+[2016-10-03 20:20:37.621] [INFO] stocks - stop_loss_price: 78.11
+[2016-10-03 20:20:37.621] [INFO] stocks - Canceling order :126
+[2016-10-03 20:20:38.143] [INFO] stocks - StopLoss accured - this never happend
+[2016-10-03 20:20:40.305] [INFO] stocks - Got price!  place :17, price :78.52
+[2016-10-03 20:20:40.306] [INFO] stocks - Got an ema1: 78.52
+[2016-10-03 20:20:40.306] [INFO] stocks - Got an ema4: 78.50409504776397
+[2016-10-03 20:20:40.306] [INFO] stocks - 1 is the higher ema
+[2016-10-03 20:20:40.306] [INFO] stocks - Highest profit point is : 17.779999999998267
+[2016-10-03 20:20:40.306] [INFO] stocks - min_profit_from_deal: -100
+[2016-10-03 20:20:40.307] [INFO] stocks - stop_loss_price: 78.11
+[2016-10-03 20:20:40.307] [INFO] stocks - Canceling order :127
+[2016-10-03 20:20:40.825] [INFO] stocks - StopLoss accured - this never happend
+[2016-10-03 20:20:45.382] [INFO] stocks - Got price!  place :18, price :78.5
+[2016-10-03 20:20:45.382] [INFO] stocks - Got an ema1: 78.5
+[2016-10-03 20:20:45.383] [INFO] stocks - Got an ema4: 78.50245702865838
+[2016-10-03 20:20:45.383] [INFO] stocks - 4 is the higher ema
+[2016-10-03 20:20:45.383] [INFO] stocks - EMAS HAVE SWITCHED, WE SHOULD SELL NOW!!
+[2016-10-03 20:20:48.052] [INFO] stocks - Got price!  place :19, price :78.45
+[2016-10-03 20:20:48.052] [INFO] stocks - Got an ema1: 78.45
+[2016-10-03 20:20:48.052] [INFO] stocks - Got an ema4: 78.48147421719503
+[2016-10-03 20:20:48.052] [INFO] stocks - 4 is the higher ema
+[2016-10-03 20:20:48.053] [INFO] stocks - Highest profit point is : 17.779999999998267
+[2016-10-03 20:20:48.053] [INFO] stocks - min_profit_from_deal: -100
+[2016-10-03 20:20:48.053] [INFO] stocks - stop_loss_price: 78.11
+[2016-10-03 20:20:48.053] [INFO] stocks - Canceling order :128
+[2016-10-03 20:20:48.574] [INFO] stocks - StopLoss accured - this never happend
+[2016-10-03 20:20:52.580] [INFO] stocks - Got price!  place :20, price :78.47
+[2016-10-03 20:20:52.580] [INFO] stocks - Got an ema1: 78.47
+[2016-10-03 20:20:52.580] [INFO] stocks - Got an ema4: 78.47688453031702
+[2016-10-03 20:20:52.581] [INFO] stocks - 4 is the higher ema
+[2016-10-03 20:20:52.581] [INFO] stocks - Highest profit point is : 17.779999999998267
+[2016-10-03 20:20:52.581] [INFO] stocks - min_profit_from_deal: -100
+[2016-10-03 20:20:52.581] [INFO] stocks - stop_loss_price: 78.11
+[2016-10-03 20:20:52.582] [INFO] stocks - Canceling order :129
+[2016-10-03 20:20:53.127] [INFO] stocks - StopLoss accured - this never happend
+[2016-10-03 20:20:59.372] [INFO] stocks - Got price!  place :21, price :78.52
+[2016-10-03 20:20:59.372] [INFO] stocks - Got an ema1: 78.52
+[2016-10-03 20:20:59.373] [INFO] stocks - Got an ema4: 78.4941307181902
+[2016-10-03 20:20:59.373] [INFO] stocks - 1 is the higher ema
+[2016-10-03 20:20:59.373] [INFO] stocks - EMAS HAVE SWITCHED, WE SHOULD BUY NOW!!
+[2016-10-03 20:21:00.258] [INFO] stocks - Got price!  place :22, price :78.45
+[2016-10-03 20:21:00.259] [INFO] stocks - Got an ema1: 78.45
+[2016-10-03 20:21:00.259] [INFO] stocks - Got an ema4: 78.47647843091413
+[2016-10-03 20:21:00.259] [INFO] stocks - 4 is the higher ema
+[2016-10-03 20:21:00.259] [INFO] stocks - EMAS HAVE SWITCHED, WE SHOULD SELL NOW!!
+[2016-10-03 20:21:03.913] [INFO] stocks - Got price!  place :23, price :78.46
+[2016-10-03 20:21:03.913] [INFO] stocks - Got an ema1: 78.46
+[2016-10-03 20:21:03.914] [INFO] stocks - Got an ema4: 78.46988705854848
+[2016-10-03 20:21:03.914] [INFO] stocks - 4 is the higher ema
+[2016-10-03 20:21:03.914] [INFO] stocks - Highest profit point is : 17.779999999998267
+[2016-10-03 20:21:03.914] [INFO] stocks - min_profit_from_deal: -100
+[2016-10-03 20:21:03.914] [INFO] stocks - stop_loss_price: 78.11
+[2016-10-03 20:21:03.915] [INFO] stocks - Canceling order :130
+[2016-10-03 20:21:04.479] [INFO] stocks - StopLoss accured - this never happend
+[2016-10-03 20:21:08.086] [INFO] stocks - Got price!  place :24, price :78.47
+[2016-10-03 20:21:08.086] [INFO] stocks - Got an ema1: 78.47
+[2016-10-03 20:21:08.087] [INFO] stocks - Got an ema4: 78.4699322351291
+[2016-10-03 20:21:08.087] [INFO] stocks - 1 is the higher ema
+[2016-10-03 20:21:08.088] [INFO] stocks - EMAS HAVE SWITCHED, WE SHOULD BUY NOW!!

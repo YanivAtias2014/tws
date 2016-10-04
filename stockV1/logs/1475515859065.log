@@ -1,0 +1,18 @@
+[2016-10-03 20:30:59.111] [INFO] stocks - Got an order id :160
+[2016-10-03 20:30:59.116] [INFO] stocks - Got an order id :160
+[2016-10-03 20:31:03.957] [INFO] stocks - Got price!  place :1, price :78.57
+[2016-10-03 20:31:03.958] [INFO] stocks - Reached first point of ema 1
+[2016-10-03 20:31:03.958] [INFO] stocks - Got an ema1: 78.57
+[2016-10-03 20:31:11.721] [INFO] stocks - Got price!  place :2, price :78.58
+[2016-10-03 20:31:11.722] [INFO] stocks - Got an ema1: 78.58
+[2016-10-03 20:31:15.986] [INFO] stocks - Got price!  place :3, price :78.64
+[2016-10-03 20:31:15.987] [INFO] stocks - Got an ema1: 78.64
+[2016-10-03 20:31:20.489] [INFO] stocks - Got price!  place :4, price :78.61
+[2016-10-03 20:31:20.489] [INFO] stocks - Got an ema1: 78.61
+[2016-10-03 20:31:20.489] [INFO] stocks - Reached first point of ema 4
+[2016-10-03 20:31:20.490] [INFO] stocks - Got an ema4: 78.6
+[2016-10-03 20:31:23.242] [INFO] stocks - Got price!  place :5, price :78.6
+[2016-10-03 20:31:23.243] [INFO] stocks - Got an ema1: 78.6
+[2016-10-03 20:31:23.243] [INFO] stocks - Got an ema4: 78.6
+[2016-10-03 20:31:23.243] [INFO] stocks - 4 is the higher ema
+[2016-10-03 20:31:33.253] [INFO] stocks - Got price!  place :6, price :78.63
