@@ -29,7 +29,7 @@ module.exports = {
                 globals.stockData[ticker_counter].ema[globals.EMAS[i]] = ema;
             }
         }
-        if (globals.emas_got == 2) {
+        if (globals.emas_got== 2) {
             globals.stockData[ticker_counter].higher_ema = globals.stockData[ticker_counter].ema[globals.EMAS[0]] > globals.stockData[ticker_counter].ema[globals.EMAS[1]] ? globals.EMAS[0] : globals.EMAS[1];
         }
     },

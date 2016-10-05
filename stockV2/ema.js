@@ -1,8 +1,11 @@
 require('colors');
 var _ = require('lodash');
 var log4js = require('log4js');
+
+
 var globals = require('./globals');
 var tools = require ('./tools');
+var dbFuncs = require ('./dbFuncs');
 var api = require ('./api');
 log4js.loadAppender('file');
 var d = new Date().getTime();
@@ -61,6 +64,7 @@ var ib = new (require('..'))({
         }
     }
 }).on('contractDetails', function (reqId, contract) {
+    logger('sss')
 }).on('tickPrice', function (tickerId, tickType, price, canAutoExecute) {
     if (getDataNow) {
         getDataNow = false;
@@ -68,20 +72,23 @@ var ib = new (require('..'))({
         globals.logger.info("Got price!  place :" + globals.ticker_counter + ", price :" + price);
         globals.stockData[globals.ticker_counter] = {'price': price};
         tools.get_all_emas(globals.ticker_counter);
-        var action = tools.decide_action(globals.ticker_counter);
-        if (action == globals.actions.BUY && !globals.in_trade) {
+        globals.stockData[globals.ticker_counter].action = tools.decide_action(globals.ticker_counter);
+        globals.stockData[globals.ticker_counter].stock= globals.stock;
+        globals.stockData[globals.ticker_counter].in_trade= globals.in_trade;
+        dbFuncs.insert_new_data(globals.stockData[globals.ticker_counter]);
+        if (globals.stockData[globals.ticker_counter].action == globals.actions.BUY && !globals.in_trade) {
             globals.logger.info("Placing a buy order");
             var num_of_stocks = tools.how_many_stocks_to_buy(price);
             globals.logger.info('We should buy :' + num_of_stocks + ' stocks.');
             globals.trades[++globals.trade_counter] = { 'num_of_stocks' : num_of_stocks };
             api.place_buy_order(ib,num_of_stocks, globals.stock);
         } else if (globals.in_trade) {
-            if (action == globals.actions.SELL) {
+            if (globals.stockData[globals.ticker_counter].action == globals.actions.SELL) {
                 globals.logger.info("Placing a sell order");
-                api.place_sell_order(ib,globals.stock,globals.trades[globals.trade_counter].num_of_stocks)
+                api.place_sell_order(ib,globals.stock,trades[globals.trade_counter].num_of_stocks)
                 globals.in_trade = false;
             } else
-            if (action == globals.actions.NONE) {
+            if (globals.stockData[globals.ticker_counter].action == globals.actions.NONE) {
                 stopLoss = tools.calculate_stop_loss();
                 api.placeStopLoss(ib);
             }
